@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: grey;
+    background-color:black;
     flex-wrap: wrap;
 
 }
@@ -90,10 +90,20 @@ This is the actually body now
 .body_2 {
     display: flex;
     justify-content: right;
-    margin-right: 10px;
+    margin-right: 20px;
     padding-top: 300px;
     
 }
 .body_2 button {
-    font-size: 30px;
+    padding: 10px 10px;
+    background-color:darkcyan;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.body_2 button:hover {
+    color: darkslategrey;
+    
 }
