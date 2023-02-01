@@ -63,7 +63,9 @@ header button:hover {
 This is the actually body now 
 */
 .body_1 {
-    display: flex;
-    justify-content: center;
+    padding-left: 600px;
     padding-top: 200px;
+}
+.github{
+    padding-top: 50px;
 }
